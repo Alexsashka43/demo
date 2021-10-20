@@ -2,7 +2,7 @@ public class WeatherResponse {
     private String city;
     private String date;
     private String weatherText;
-    private int temprature;
+    private String temprature;
 
     public String getCity() {
         return city;
@@ -28,11 +28,11 @@ public class WeatherResponse {
         this.weatherText = weatherText;
     }
 
-    public int getTemprature() {
+    public String getTemprature() {
         return temprature;
     }
 
-    public void setTemprature(int temprature) {
+    public void setTemprature(String temprature) {
         this.temprature = temprature;
     }
 
